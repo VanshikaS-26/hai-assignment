@@ -1,0 +1,201 @@
+input_text,ground_truth_label,model_output_label,model_score,human_rating_placeholder,ai_readable_label,ai_rationale
+u know u want to but i will not push,1,1,0.3178629852459108,,CONSENSUAL_FLIRT,lexical pattern features
+this could be fun if u r comfortable with it,1,1,0.8334185152174288,,CONSENSUAL_FLIRT,boundary or consent wording
+is it okay if i call you cute,1,1,0.9095733075728915,,CONSENSUAL_FLIRT,boundary or consent wording
+want to grab coffee this week if you are free,1,1,0.9038298722180597,,CONSENSUAL_FLIRT,lexical pattern features
+come over to my place now no excuses,0,0,0.09358405709682588,,TOO_FORWARD,lexical pattern features
+hey send me a pic right now i do not care if you are busy,0,0,0.07471712061002658,,TOO_FORWARD,deadline or time pressure
+hey would you be comfortable with a dinner date,1,1,0.9018392106901123,,CONSENSUAL_FLIRT,boundary or consent wording
+we should plan a walk on campus if you are free please,1,1,0.8970534470755395,,CONSENSUAL_FLIRT,lexical pattern features
+come on do not make me wait all night,0,0,0.12675807814211817,,TOO_FORWARD,teasing push phrasing
+stop overthinking just come hang out,0,1,0.2274811944048676,,CONSENSUAL_FLIRT,teasing push phrasing
+you owe me a kiss for replying this late please,0,0,0.08595515856357622,,TOO_FORWARD,lexical pattern features
+you could at least tell me you miss me,0,1,0.7695353656333799,,CONSENSUAL_FLIRT,guilt framing detected
+would you be comfortable with a dinner date,1,1,0.9018392106901123,,CONSENSUAL_FLIRT,boundary or consent wording
+do not be a tease you know what i want please,0,0,0.10262179371348806,,TOO_FORWARD,lexical pattern features
+hey stop overthinking just come hang out,0,1,0.2274811944048676,,CONSENSUAL_FLIRT,teasing push phrasing
+i like this but say if i should slow down,1,1,0.9255930925821476,,CONSENSUAL_FLIRT,boundary or consent wording
+hey we should plan a walk on campus if you are free,1,1,0.9060561211818736,,CONSENSUAL_FLIRT,lexical pattern features
+hey you never reply fast it makes me think you do not care,0,1,0.153699735370535,,CONSENSUAL_FLIRT,guilt framing detected
+stop pretending meet me at midnight or else,0,0,0.0820157546116769,,TOO_FORWARD,deadline or time pressure
+if you liked me you would have said yes already,0,1,0.4630328140358303,,CONSENSUAL_FLIRT,guilt framing detected
+you owe me a kiss for replying this late :),0,0,0.09917858034781403,,TOO_FORWARD,lexical pattern features
+is it okay if i call you cute please,1,1,0.8943552927558,,CONSENSUAL_FLIRT,boundary or consent wording
+i am not sure if this is flirting or just friendly :),1,1,0.3973820415166111,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+we should plan a walk on campus if u r free,1,1,0.8900092026747437,,CONSENSUAL_FLIRT,lexical pattern features
+hey skip the small talk let us hook up now,0,0,0.11684350657735337,,TOO_FORWARD,lexical pattern features
+stop overthinking just come hang out :),0,1,0.22367108041415437,,CONSENSUAL_FLIRT,teasing push phrasing
+is it okay if i call you cute,1,1,0.9095733075728915,,CONSENSUAL_FLIRT,boundary or consent wording
+u never reply fast it makes me think u do not cr,0,1,0.15005356932745278,,CONSENSUAL_FLIRT,lexical pattern features
+hey i like this but say if i should slow down,1,1,0.9267615974779427,,CONSENSUAL_FLIRT,boundary or consent wording
+i am enjoying this tell me your favorite movie please,1,1,0.8845332923139463,,CONSENSUAL_FLIRT,lexical pattern features
+tell me your boundaries and i will respect them please,1,1,0.8978797996980306,,CONSENSUAL_FLIRT,lexical pattern features
+maybe we could meet if you really want to,1,1,0.5435309809906407,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+do not be a tease you know what i want :),0,0,0.09896370357778508,,TOO_FORWARD,lexical pattern features
+u owe me a kiss for replying this late,0,0,0.09008507300189703,,TOO_FORWARD,lexical pattern features
+i am enjoying this tell me your favorite movie :),1,1,0.8966708271957149,,CONSENSUAL_FLIRT,lexical pattern features
+you know you want to but i will not push please,1,1,0.3020642596800218,,CONSENSUAL_FLIRT,teasing push phrasing
+you know you want to but i will not push,1,1,0.3196522457053373,,CONSENSUAL_FLIRT,teasing push phrasing
+this could be fun if you are comfortable with it please,1,1,0.8400921383480153,,CONSENSUAL_FLIRT,boundary or consent wording
+i am not sure if this is flirting or just friendly,1,1,0.4073082706024837,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+stop pretending meet me at midnight or else please,0,0,0.0751976419319694,,TOO_FORWARD,deadline or time pressure
+i am not sure if this is flirting or just friendly please,1,1,0.36881133402090677,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+i can stop if this feels weird,1,1,0.7172260483296244,,CONSENSUAL_FLIRT,lexical pattern features
+im not asking be mine tonight,0,0,0.07853012781306086,,TOO_FORWARD,deadline or time pressure
+come over to my place now no excuses,0,0,0.09358405709682588,,TOO_FORWARD,lexical pattern features
+do not be a tease you know what i want,0,0,0.0975854087541847,,TOO_FORWARD,lexical pattern features
+is it okay if i call u cute,1,1,0.8896911895033816,,CONSENSUAL_FLIRT,boundary or consent wording
+i am enjoying this tell me your favorite movie,1,1,0.8957764951420695,,CONSENSUAL_FLIRT,lexical pattern features
+if you liked me you would have said yes already,0,1,0.4630328140358303,,CONSENSUAL_FLIRT,guilt framing detected
+if you like me prove it already please,0,0,0.09461846636743691,,TOO_FORWARD,flagged pressure phrase
+you like me right just say it already,0,1,0.16920531910829098,,CONSENSUAL_FLIRT,guilt framing detected
+hey come on do not make me wait all night,0,0,0.1488358873384303,,TOO_FORWARD,teasing push phrasing
+you looked nice today can i text you later,1,1,0.9086453296197837,,CONSENSUAL_FLIRT,lexical pattern features
+stop overthinking just come hang out,0,1,0.2274811944048676,,CONSENSUAL_FLIRT,teasing push phrasing
+hey you know you want to but i will not push,1,1,0.32168457987229426,,CONSENSUAL_FLIRT,teasing push phrasing
+if you like me prove it already,0,0,0.10623481975866557,,TOO_FORWARD,flagged pressure phrase
+you could at least tell me you miss me :),0,1,0.7625953336407986,,CONSENSUAL_FLIRT,guilt framing detected
+if u like me prove it already,0,0,0.10289550555049098,,TOO_FORWARD,flagged pressure phrase
+are you ignoring me again or just busy :),0,1,0.2767306227499832,,CONSENSUAL_FLIRT,guilt framing detected
+are you ignoring me again or just busy,0,1,0.285955912142529,,CONSENSUAL_FLIRT,guilt framing detected
+tell me no if this feels wrong :),1,1,0.6803405999799101,,CONSENSUAL_FLIRT,lexical pattern features
+would you be comfortable with a dinner date :),1,1,0.9012907467687296,,CONSENSUAL_FLIRT,boundary or consent wording
+i will keep pushing until you say yes,0,0,0.10496567363107476,,TOO_FORWARD,flagged pressure phrase
+i am joking unless u want me to be serious,1,1,0.2390654086561509,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+send me a pic right now i do not care if you are busy,0,0,0.07471712061002658,,TOO_FORWARD,deadline or time pressure
+would u be comfortable with a dinner date,1,1,0.8903846289878871,,CONSENSUAL_FLIRT,boundary or consent wording
+you like me right just say it already,0,1,0.16920531910829098,,CONSENSUAL_FLIRT,guilt framing detected
+i am joking unless you want me to be serious :),1,1,0.25107049832861145,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+hey i do not know how to read your messages,1,1,0.2609607024714011,,CONSENSUAL_FLIRT,lexical pattern features
+come on do not make me wait all night,0,0,0.12675807814211817,,TOO_FORWARD,teasing push phrasing
+you know you want to but i will not push :),1,1,0.31969437933661754,,CONSENSUAL_FLIRT,teasing push phrasing
+skip the small talk let us hook up now please,0,0,0.1077361530325869,,TOO_FORWARD,lexical pattern features
+do not be a tease u know what i want,0,0,0.10183530578491042,,TOO_FORWARD,lexical pattern features
+im not sure if this is flirting or just friendly,1,1,0.4244232666095978,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+want to grab coffee this week if you are free,1,1,0.9038298722180597,,CONSENSUAL_FLIRT,lexical pattern features
+hey maybe we could meet if you really want to,1,1,0.5435309809906407,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+stop pretending meet me at midnight or else,0,0,0.0820157546116769,,TOO_FORWARD,deadline or time pressure
+i am not asking be mine tonight,0,0,0.07849438800617657,,TOO_FORWARD,deadline or time pressure
+you could at least tell me you miss me please,0,1,0.6821870952702856,,CONSENSUAL_FLIRT,guilt framing detected
+i am not trying to pressure you but i really want to see you,0,1,0.4187170407283095,,CONSENSUAL_FLIRT,lexical pattern features
+u like me right just say it already,0,1,0.16094354692799223,,CONSENSUAL_FLIRT,guilt framing detected
+come over to my place now no excuses,0,0,0.09358405709682588,,TOO_FORWARD,lexical pattern features
+come over to my place now no excuses :),0,0,0.09045969054161151,,TOO_FORWARD,lexical pattern features
+you could at least tell me you miss me,0,1,0.7695353656333799,,CONSENSUAL_FLIRT,guilt framing detected
+hey i might be flirting too much tell me if i am,1,1,0.6155852364335186,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+if you liked me you would have said yes already please,0,1,0.4011783286298149,,CONSENSUAL_FLIRT,guilt framing detected
+come on do not make me wait all night,0,0,0.12675807814211817,,TOO_FORWARD,teasing push phrasing
+maybe we could meet if u really want to,1,1,0.5299265545404186,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+send me a pic right now i do not care if you are busy please,0,0,0.06956426613551345,,TOO_FORWARD,deadline or time pressure
+are you ignoring me again or just busy,0,1,0.285955912142529,,CONSENSUAL_FLIRT,guilt framing detected
+i might be flirting too much tell me if i am,1,1,0.5982218156014758,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+hey if you liked me you would have said yes already,0,1,0.5136394320884198,,CONSENSUAL_FLIRT,guilt framing detected
+send me a pic right now i do not cr if u r busy,0,0,0.09016399633839957,,TOO_FORWARD,deadline or time pressure
+let me know what pace you prefer i can slow down,1,1,0.888374750319267,,CONSENSUAL_FLIRT,boundary or consent wording
+send me a pic right now i do not care if you are busy,0,0,0.07471712061002658,,TOO_FORWARD,deadline or time pressure
+come on do not make me wait all night :),0,0,0.12209410907793629,,TOO_FORWARD,teasing push phrasing
+hey tell me your boundaries and i will respect them,1,1,0.906890760835685,,CONSENSUAL_FLIRT,lexical pattern features
+hey you like me right just say it already,0,1,0.17110315752472,,CONSENSUAL_FLIRT,guilt framing detected
+send me a pic right now i do not care if you are busy :),0,0,0.07534251525475874,,TOO_FORWARD,deadline or time pressure
+hey if you like me prove it already,0,0,0.13251046086150622,,TOO_FORWARD,flagged pressure phrase
+i might be flirting too much tell me if i am,1,1,0.5982218156014758,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+i can stop if this feels weird please,1,1,0.6810664180784264,,CONSENSUAL_FLIRT,lexical pattern features
+i might be flirting too much tell me if i am :),1,1,0.5952105584732915,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+i am not trying to pressure you but i really want to see you :),0,1,0.4102962671648328,,CONSENSUAL_FLIRT,lexical pattern features
+hey i am not asking be mine tonight,0,0,0.08450476526710271,,TOO_FORWARD,deadline or time pressure
+if u liked me u would have said yes already,0,1,0.4076066094660866,,CONSENSUAL_FLIRT,guilt framing detected
+hey stop pretending meet me at midnight or else,0,0,0.0820157546116769,,TOO_FORWARD,deadline or time pressure
+hey want to grab coffee this week if you are free,1,1,0.8932867820397932,,CONSENSUAL_FLIRT,lexical pattern features
+this could be fun if you are comfortable with it :),1,1,0.8461341854078722,,CONSENSUAL_FLIRT,boundary or consent wording
+skip the small talk let us hook up now,0,0,0.11684350657735337,,TOO_FORWARD,lexical pattern features
+i am not asking be mine tonight please,0,0,0.07325436766102718,,TOO_FORWARD,deadline or time pressure
+you never reply fast it makes me think you do not care please,0,0,0.13626327416314268,,TOO_FORWARD,guilt framing detected
+hey come over to my place now no excuses,0,0,0.10363761725198434,,TOO_FORWARD,lexical pattern features
+i like this but say if i should slow down :),1,1,0.9273430628292137,,CONSENSUAL_FLIRT,boundary or consent wording
+i am enjoying this tell me ur favorite movie,1,1,0.8767235582578581,,CONSENSUAL_FLIRT,lexical pattern features
+hey are you ignoring me again or just busy,0,1,0.30845319342346467,,CONSENSUAL_FLIRT,guilt framing detected
+r u ignoring me again or just busy,0,1,0.23926964474805568,,CONSENSUAL_FLIRT,guilt framing detected
+i am not sure if this is flirting or just friendly,1,1,0.4073082706024837,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+i do not know how to read your messages,1,1,0.24787796308313367,,CONSENSUAL_FLIRT,lexical pattern features
+i can stop if this feels weird,1,1,0.7172260483296244,,CONSENSUAL_FLIRT,lexical pattern features
+if you liked me you would have said yes already :),0,1,0.41632129711359483,,CONSENSUAL_FLIRT,guilt framing detected
+hey you owe me a kiss for replying this late,0,0,0.09058262541084842,,TOO_FORWARD,lexical pattern features
+i like this but say if i should slow down,1,1,0.9255930925821476,,CONSENSUAL_FLIRT,boundary or consent wording
+you looked nice today can i text you later please,1,1,0.9018184905367927,,CONSENSUAL_FLIRT,lexical pattern features
+tell me no if this feels wrong please,1,1,0.6316504732504423,,CONSENSUAL_FLIRT,lexical pattern features
+hey i will keep pushing until you say yes,0,0,0.11478431838430764,,TOO_FORWARD,flagged pressure phrase
+if you like me prove it already :),0,0,0.1024703496885576,,TOO_FORWARD,flagged pressure phrase
+hey let me know what pace you prefer i can slow down,1,1,0.8780563255831818,,CONSENSUAL_FLIRT,boundary or consent wording
+i might be flirting too much tell me if im,1,1,0.5735152289058038,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+tell me your boundaries and i will respect them,1,1,0.9045102496687882,,CONSENSUAL_FLIRT,lexical pattern features
+this could be fun if you are comfortable with it,1,1,0.8583310299491438,,CONSENSUAL_FLIRT,boundary or consent wording
+u could at least tell me u miss me,0,1,0.7208654554856012,,CONSENSUAL_FLIRT,guilt framing detected
+hey you could at least tell me you miss me,0,1,0.7590606821167861,,CONSENSUAL_FLIRT,guilt framing detected
+hey i am enjoying this tell me your favorite movie,1,1,0.8996504110322636,,CONSENSUAL_FLIRT,lexical pattern features
+come on do not make me wait all night please,0,0,0.11669765200603484,,TOO_FORWARD,teasing push phrasing
+i am joking unless you want me to be serious,1,1,0.25168393537274747,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+tell me ur boundaries and i will respect them,1,1,0.8856258553749582,,CONSENSUAL_FLIRT,lexical pattern features
+im enjoying this tell me your favorite movie,1,1,0.8974807785697533,,CONSENSUAL_FLIRT,lexical pattern features
+want to grab coffee this week if you are free please,1,1,0.8951466597234359,,CONSENSUAL_FLIRT,lexical pattern features
+tell me no if this feels wrong,1,1,0.6970873335587783,,CONSENSUAL_FLIRT,lexical pattern features
+skip the small talk let us hook up now,0,0,0.11684350657735337,,TOO_FORWARD,lexical pattern features
+hey i can stop if this feels weird,1,1,0.7564078392354411,,CONSENSUAL_FLIRT,lexical pattern features
+stop overthinking just come hang out,0,1,0.2274811944048676,,CONSENSUAL_FLIRT,teasing push phrasing
+you know you want to but i will not push,1,1,0.3196522457053373,,CONSENSUAL_FLIRT,teasing push phrasing
+im not trying to pressure you but i really want to see you,0,1,0.43333062181981136,,CONSENSUAL_FLIRT,lexical pattern features
+you like me right just say it already please,0,0,0.1472525354955119,,TOO_FORWARD,guilt framing detected
+hey tell me no if this feels wrong,1,1,0.7112605704662603,,CONSENSUAL_FLIRT,lexical pattern features
+hey this could be fun if you are comfortable with it,1,1,0.8631013823200503,,CONSENSUAL_FLIRT,boundary or consent wording
+u looked nice today can i text u later,1,1,0.8986950307702467,,CONSENSUAL_FLIRT,lexical pattern features
+are you ignoring me again or just busy please,0,1,0.24628838901006933,,CONSENSUAL_FLIRT,guilt framing detected
+i am joking unless you want me to be serious please,1,1,0.23943159409583165,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+tell me no if this feels wrong,1,1,0.6970873335587783,,CONSENSUAL_FLIRT,lexical pattern features
+come over to my place now no excuses please,0,0,0.08862459857275112,,TOO_FORWARD,lexical pattern features
+maybe we could meet if you really want to :),1,1,0.5507650758318512,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+tell me no if this feels wrong,1,1,0.6970873335587783,,CONSENSUAL_FLIRT,lexical pattern features
+hey i am not trying to pressure you but i really want to see you,0,1,0.4353548499283429,,CONSENSUAL_FLIRT,lexical pattern features
+you owe me a kiss for replying this late,0,0,0.08937541808659612,,TOO_FORWARD,lexical pattern features
+you never reply fast it makes me think you do not care,0,0,0.14824071867159222,,TOO_FORWARD,guilt framing detected
+maybe we could meet if you really want to please,1,1,0.5185834258941888,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+i am not asking be mine tonight :),0,0,0.07597727176612279,,TOO_FORWARD,deadline or time pressure
+maybe we could meet if you really want to,1,1,0.5435309809906407,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+im joking unless you want me to be serious,1,1,0.2445064136060452,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+i can stop if this feels weird,1,1,0.7172260483296244,,CONSENSUAL_FLIRT,lexical pattern features
+you owe me a kiss for replying this late,0,0,0.08937541808659612,,TOO_FORWARD,lexical pattern features
+you looked nice today can i text you later :),1,1,0.908176528452273,,CONSENSUAL_FLIRT,lexical pattern features
+would you be comfortable with a dinner date please,1,1,0.8891252154026451,,CONSENSUAL_FLIRT,boundary or consent wording
+we should plan a walk on campus if you are free,1,1,0.9049970998951948,,CONSENSUAL_FLIRT,lexical pattern features
+tell me your boundaries and i will respect them :),1,1,0.9047046285998696,,CONSENSUAL_FLIRT,lexical pattern features
+want to grab coffee this week if you are free :),1,1,0.9101890119128391,,CONSENSUAL_FLIRT,lexical pattern features
+i like this but say if i should slow down please,1,1,0.9201547398185057,,CONSENSUAL_FLIRT,boundary or consent wording
+i might be flirting too much tell me if i am please,1,1,0.560540644060287,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+stop pretending meet me at midnight or else,0,0,0.0820157546116769,,TOO_FORWARD,deadline or time pressure
+hey you looked nice today can i text you later,1,1,0.90545986418762,,CONSENSUAL_FLIRT,lexical pattern features
+is it okay if i call you cute :),1,1,0.9105883034264894,,CONSENSUAL_FLIRT,boundary or consent wording
+skip the small talk let us hook up now,0,0,0.11684350657735337,,TOO_FORWARD,lexical pattern features
+stop overthinking just come hang out please,0,1,0.22288909395505532,,CONSENSUAL_FLIRT,teasing push phrasing
+you never reply fast it makes me think you do not care :),0,1,0.1541607156507488,,CONSENSUAL_FLIRT,guilt framing detected
+i can stop if this feels weird :),1,1,0.7151832357976482,,CONSENSUAL_FLIRT,lexical pattern features
+you looked nice today can i text you later,1,1,0.9086453296197837,,CONSENSUAL_FLIRT,lexical pattern features
+we should plan a walk on campus if you are free :),1,1,0.9125404882251453,,CONSENSUAL_FLIRT,lexical pattern features
+i am not asking be mine tonight,0,0,0.07849438800617657,,TOO_FORWARD,deadline or time pressure
+you like me right just say it already :),0,1,0.1585186739000795,,CONSENSUAL_FLIRT,guilt framing detected
+i am not trying to pressure you but i really want to see you please,0,1,0.42065280448539044,,CONSENSUAL_FLIRT,lexical pattern features
+i am not trying to pressure u but i really want to see u,0,1,0.3673934462996452,,CONSENSUAL_FLIRT,lexical pattern features
+do not be a tease you know what i want,0,0,0.0975854087541847,,TOO_FORWARD,lexical pattern features
+would you be comfortable with a dinner date,1,1,0.9018392106901123,,CONSENSUAL_FLIRT,boundary or consent wording
+we should plan a walk on campus if you are free,1,1,0.9049970998951948,,CONSENSUAL_FLIRT,lexical pattern features
+hey maybe i went too far but do not leave me hanging,0,1,0.25837730311595947,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+hey do not be a tease you know what i want,0,0,0.09370328953616903,,TOO_FORWARD,lexical pattern features
+stop pretending meet me at midnight or else :),0,0,0.0845434725657513,,TOO_FORWARD,deadline or time pressure
+hey i am joking unless you want me to be serious,1,1,0.2730894699259895,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+hey i am not sure if this is flirting or just friendly,1,1,0.4276042178894912,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+skip the small talk let us hook up now :),0,0,0.11483033030410592,,TOO_FORWARD,lexical pattern features
+want to grab coffee this week if u r free,1,1,0.8877553315647608,,CONSENSUAL_FLIRT,lexical pattern features
+i like this but say if i should slow down,1,1,0.9255930925821476,,CONSENSUAL_FLIRT,boundary or consent wording
+maybe i went too far but do not leave me hanging,0,1,0.25837730311595947,,CONSENSUAL_FLIRT,hedge or uncertainty phrasing
+this could be fun if you are comfortable with it,1,1,0.8583310299491438,,CONSENSUAL_FLIRT,boundary or consent wording
+you never reply fast it makes me think you do not care,0,0,0.14824071867159222,,TOO_FORWARD,guilt framing detected
+tell me your boundaries and i will respect them,1,1,0.9045102496687882,,CONSENSUAL_FLIRT,lexical pattern features
+if you like me prove it already,0,0,0.10623481975866557,,TOO_FORWARD,flagged pressure phrase
+hey is it okay if i call you cute,1,1,0.9097933246117831,,CONSENSUAL_FLIRT,boundary or consent wording

@@ -1,0 +1,4 @@
+rows: 200
+consensual: 100  too_forward: 100
+avg_words: 9.77  median_words: 10
+min_words: 6  max_words: 15

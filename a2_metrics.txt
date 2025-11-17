@@ -1,0 +1,19 @@
+Accuracy: 0.8000
+F1: 0.8333
+Precision: 0.7143
+Recall: 1.0000
+
+                  precision    recall  f1-score   support
+
+     TOO_FORWARD       1.00      0.60      0.75       100
+CONSENSUAL_FLIRT       0.71      1.00      0.83       100
+
+        accuracy                           0.80       200
+       macro avg       0.86      0.80      0.79       200
+    weighted avg       0.86      0.80      0.79       200
+
+Chosen threshold: 0.150  val_f1: 1.0000
+
+Per class:
+TOO_FORWARD  P=1.000 R=0.600 F1=0.750 n=100
+CONSENSUAL   P=0.714 R=1.000 F1=0.833 n=100
