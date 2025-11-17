@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+  <p class="muted">Judge whether short chat messages sound <b>Consensual Flirt</b> or <b>Too Forward</b>. The study has two versions: without AI or with AI suggestions. It should take under 10 minutes.</p>
+  <form method="post">
+    <div class="row">
+      <label>Participant ID</label>
+      <input name="pid" placeholder="your_umid_or_alias" value="{{ preset_pid }}">
+    </div>
+    <div class="row">
+      <label>Condition</label>
+      <select name="cond">
+        <option value="noai" {% if preset_cond=="noai" %}selected{% endif %}>No AI</option>
+        <option value="ai" {% if preset_cond=="ai" %}selected{% endif %}>With AI</option>
+      </select>
+      <label>Trials</label>
+      <input name="n" type="number" value="{{ preset_n or '18' }}" min="5" max="30" style="width:80px">
+      <label>Live AI</label>
+      <select name="sync">
+        <option value="0" {% if preset_sync!='1' %}selected{% endif %}>Off</option>
+        <option value="1" {% if preset_sync=='1' %}selected{% endif %}>On</option>
+      </select>
+    </div>
+    <p><button class="btn" type="submit">Continue</button></p>
+  </form>
+</div>
+{% endblock %}

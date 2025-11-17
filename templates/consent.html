@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+  <h3>Instructions</h3>
+  <ul>
+    <li>Read the message.</li>
+    <li>If in With AI, you will also see the AI label, its confidence, and a one line rationale.</li>
+    <li>Pick your answer. Use keys <span class="kbd">1</span> <span class="kbd">2</span> <span class="kbd">3</span> for faster input.</li>
+    <li>There is a Not sure option for edge cases.</li>
+  </ul>
+  <p class="muted">This study shows fictional and non explicit chat lines. Time target is under 10 minutes.</p>
+  <form method="post">
+    <label><input type="checkbox" name="agree" required> I understand and want to continue</label>
+    <p><button class="btn" type="submit">Start</button></p>
+  </form>
+</div>
+{% endblock %}

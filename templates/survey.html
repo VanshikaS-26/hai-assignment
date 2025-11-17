@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+  <h3>Quick survey</h3>
+  <p>How confident did you feel overall</p>
+  <form method="post">
+    <div class="choice"><label><input type="radio" name="confidence" value="1" required> 1 not confident</label></div>
+    <div class="choice"><label><input type="radio" name="confidence" value="2"> 2</label></div>
+    <div class="choice"><label><input type="radio" name="confidence" value="3"> 3</label></div>
+    <div class="choice"><label><input type="radio" name="confidence" value="4"> 4</label></div>
+    <div class="choice"><label><input type="radio" name="confidence" value="5"> 5 very confident</label></div>
+    <button class="btn" type="submit">Finish</button>
+  </form>
+</div>
+{% endblock %}

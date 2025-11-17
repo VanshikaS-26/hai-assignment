@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block head %}
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  // keyboard shortcuts 1 2 3
+  document.addEventListener("keydown", function(e){
+    if(e.key==="1"){ let x=document.querySelector('input[name="answer"][value="consensual"],input[value="agree"]'); if(x){ x.checked=true; } }
+    if(e.key==="2"){ let x=document.querySelector('input[name="answer"][value="too_forward"],input[value="disagree_too_forward"]'); if(x){ x.checked=true; } }
+    if(e.key==="3"){ let x=document.querySelector('input[name="answer"][value="not_sure"]'); if(x){ x.checked=true; } }
+  });
+  // set progress bar
+  const bar = document.querySelector(".bar");
+  const pos = parseInt(document.body.dataset.pos);
+  const total = parseInt(document.body.dataset.total);
+  if(bar && total>0){ bar.style.width = Math.round((pos/total)*100) + "%"; }
+});
+</script>
+{% endblock %}
+{% block content %}
+<div class="prog">Trial {{pos}} of {{total}}</div>
+<div class="progress"><div class="bar"></div></div>
+
+<div class="card">
+  <div class="muted">Message</div>
+  <div class="msg">{{ message }}</div>
+</div>
+
+{% if cond == "ai" and ai_info %}
+<div class="card">
+  <div class="muted">AI suggestion</div>
+  <div>Label: <b style="color:#22d3ee">{{ ai_info.label }}</b></div>
+  <div>Confidence: <b>{{ "%.2f"|format(ai_info.score) }}</b></div>
+  <div>Rationale: <span class="muted">{{ ai_info.rationale }}</span></div>
+</div>
+{% endif %}
+
+<form method="post">
+  <div class="card">
+    <div class="muted">Your answer  -  shortcuts 1, 2, 3</div>
+    {% if cond == "ai" %}
+      <div class="choice"><label><input type="radio" name="answer" value="agree" required> I agree</label></div>
+      <div class="choice"><label><input type="radio" name="answer" value="disagree_too_forward"> I disagree</label></div>
+      <div class="choice"><label><input type="radio" name="answer" value="not_sure"> Not sure</label></div>
+    {% else %}
+      <div class="choice"><label><input type="radio" name="answer" value="consensual" required> Consensual Flirt</label></div>
+      <div class="choice"><label><input type="radio" name="answer" value="too_forward"> Too Forward</label></div>
+      <div class="choice"><label><input type="radio" name="answer" value="not_sure"> Not sure</label></div>
+    {% endif %}
+    <button class="btn" type="submit">Next</button>
+  </div>
+</form>
+<script>document.body.dataset.pos="{{pos}}"; document.body.dataset.total="{{total}}";</script>
+{% endblock %}
